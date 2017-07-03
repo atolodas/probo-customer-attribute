@@ -38,10 +38,7 @@ class InstallData implements InstallDataInterface
     }
 
     /**
-     * Installer
-     *
-     * @param ModuleDataSetupInterface $setup
-     * @param ModuleContextInterface $context
+     * {@inheritdoc}
      */
     public function install(ModuleDataSetupInterface $setup, ModuleContextInterface $context)
     {
